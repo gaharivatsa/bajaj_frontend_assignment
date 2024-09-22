@@ -1,0 +1,59 @@
+.App {
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 10rem;
+    padding: 2rem; 
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease; 
+}
+
+.App:hover {
+    transform: scale(1.05); 
+}
+
+h3 {
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #f06;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+pre {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    overflow: auto;
+}
